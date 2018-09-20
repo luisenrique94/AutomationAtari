@@ -25,7 +25,11 @@ namespace LoginTest
         {
             try
             {
+                /*Brain
                 Driver.Navigate().GoToUrl("http://191.232.161.185/#/login");
+                */
+                /*Sandbox*/
+                Driver.Navigate().GoToUrl("http://sandbox.entregacreativa.com/#/login");
             }
             catch (Exception)
             {

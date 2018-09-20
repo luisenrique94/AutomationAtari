@@ -77,7 +77,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Atari\AtariPages.csproj">
-      <Project>{284FDDD0-B9CE-4CBE-A988-636E07E4A4D9}</Project>
+      <Project>{284fddd0-b9ce-4cbe-a988-636e07e4a4d9}</Project>
       <Name>AtariPages</Name>
     </ProjectReference>
   </ItemGroup>

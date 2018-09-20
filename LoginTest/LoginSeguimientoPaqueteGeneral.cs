@@ -17,8 +17,13 @@ namespace LoginTest
         [Fact]
         public void SeguimientoGeneral()
         {
-            string usuario = "chazki_mexico";
-            string pass = "hviveso02";
+            /*USUARIO MEXICO
+           var usuario = "chazki_mexico";
+           var pass = "hviveso02";*/
+            // var empresa = "NESPRESSO MEXICO SA DE CV";
+            /*USUARIO PERU*/
+            var usuario = "chazki_peru";
+            var pass = "hviveso02";
             IrAtari();
             var login = new SeguimientoPaquetesGeneralPage(Driver);
             var iniciarSesion = login.LoginSeguimientoPaqueGeneral(usuario,pass);
